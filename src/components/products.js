@@ -1,31 +1,36 @@
+import pepsi from './assets/pepsi.jpeg';
+import ham from './assets/ham.jpeg';
+import fries from './assets/fries.jpeg';
+import cock from './assets/cock.jpeg';
+
 
 export const products = [
   {
     id: 1,
-    title: "Pepsi",
-    price: "50",
-    img: "https://images.unsplash.com/photo-1417325384643-aac51acc9e5d?q=75&fm=jpg",
+    title: "Hamberger",
+    price: "100",
+    img: ham,
     quantity: 1,
   },
   {
     id: 2,
-    title: "Pizza",
+    title: "French Fries",
     price: "100",
-    img: "https://images.unsplash.com/photo-1417325384643-aac51acc9e5d",
+    img: fries,
     quantity: 1,
   },
   {
     id: 3,
-    title: "French Fries",
-    price: "100",
-    img: "https://images.unsplash.com/photo-1417325384643-aac51acc9e5d",
+    title: "Cock",
+    price: "50",
+    img: cock,
     quantity: 1,
   },
   {
     id: 4,
-    title: "Hamburger",
-    price: "200",
-    img: "https://images.unsplash.com/photo-1417325384643-aac51acc9e5d",
+    title: "Pepsi",
+    price: "50",
+    img: pepsi,
     quantity: 1,
   },
 ];

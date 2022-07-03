@@ -5,10 +5,10 @@ export default function Thankyou() {
     return (
         <div>
 
-            <nav className="navbar navbar-expand-lg navbar-light " style={{ backgroundColor: "lightblue" }}>
+            <nav className="navbar navbar-expand-lg navbar-primary bg-primary ">
                 <div className="container-fluid">
-                    <a className="navbar-brand pt-1" href="#" style={{ fontSize: '3rem' }}><GrRestaurant size={35} className='r-icon' />&nbsp;Restaurant-WebApp</a>
-                    <MdOutlineAddShoppingCart size={25} className='s-icon' />
+                    <a className="navbar-brand pt-1 text-light" href="#" style={{ fontSize: '3rem' }}><GrRestaurant size={35} style={{backgroundColor:'white',borderRadius:'50%',padding:'3px'}}  className='r-icon' />&nbsp;Restaurant-WebApp</a>
+                    <MdOutlineAddShoppingCart size={35} style={{backgroundColor:'white',borderRadius:'50%',padding:'3px'}}  className='s-icon' />
                 </div>
             </nav>
 

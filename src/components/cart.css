@@ -123,8 +123,6 @@ body {
   place-items: center;
 }
 
-
-
 .cart-items-container {
   width: 90%;
   height: 56rem;
@@ -132,7 +130,7 @@ body {
 
 .items-info {
   width: 100%;
-  height: 11rem;
+  height: 12rem;
   /* background-color: lavender; */
   margin: auto;
   display: grid;
@@ -140,8 +138,8 @@ body {
 }
 
 .items-info .product-img img {
-  width: 16rem;
-  height: 11rem;
+  width: 17rem;
+  height: 12rem;
   filter: drop-shadow(0rem 0.4rem 1rem #f1f7ff);
   border-radius: 1rem;
 }
